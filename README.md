@@ -1,13 +1,16 @@
 # wasm-chika
 WebAssembly for easy canvas manipulation
 
+## Example
+
+### JavaScript
 ```javascript
 import * as chika from "chika";
 
 chika.Chika.clean('chika')
 new chika.Text('chika', 'asd', 50, 50, 'bold 48px serif')
 ```
-
+### html
 ```html
 <!DOCTYPE html>
 <html>
