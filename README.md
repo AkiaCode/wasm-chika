@@ -3,14 +3,20 @@ WebAssembly for easy canvas manipulation
 
 ## Example
 
-### JavaScript
-```javascript
-import * as chika from "chika";
+Use https://www.npmjs.com/package/create-wasm-app  
 
-chika.Chika.clean('chika')
-new chika.Text('chika', 'asd', 50, 50, 'bold 48px serif')
+`npm i wasm-chika` and `npm run start` is starting work
+
+
+`index.js`
+```javascript
+import * as wasm from "wasm-chika";
+
+wasm.Chika.clean('chika')
+new wasm.Text('chika', 'asd', 50, 50, 'bold 48px serif')
 ```
-### html
+
+`index.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -25,3 +31,4 @@ new chika.Text('chika', 'asd', 50, 50, 'bold 48px serif')
   </body>
 </html>
 ```
+
