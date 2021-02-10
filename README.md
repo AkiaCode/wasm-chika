@@ -7,6 +7,7 @@ Use https://www.npmjs.com/package/create-wasm-app
 
 `npm i wasm-chika` and `npm run start` is starting work
 
+### Insert:
 
 `index.js`
 ```javascript
